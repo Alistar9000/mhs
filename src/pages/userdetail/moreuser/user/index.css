@@ -1,0 +1,10 @@
+.comm_date_anim{
+    animation: com-date-anim 2s infinite ease-in-out;
+    /* color: white; */
+}
+@keyframes com-date-anim{
+    0%{background-color: rgba(255, 213, 2,.1);}
+    50%{background-color: rgba(255, 213, 2,.6);color: rgb(70, 70, 70);}
+    60%{background-color: rgba(255, 213, 2,.6);color: rgb(70, 70, 70);}
+    100%{background-color: rgba(255, 213, 2,.1);}
+}

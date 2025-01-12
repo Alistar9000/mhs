@@ -1,0 +1,15 @@
+.add-portfo{
+    animation: add-portfo-anim .3s linear forwards;
+    animation-delay: .7s;
+}
+.add-btn{
+    animation: add-btn-anim .3s linear forwards;
+    animation-delay: 1s;
+}
+.add-portfo-scroll::-webkit-scrollbar{
+    width: 4px;
+}
+.add-portfo-scroll::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    background-color: #eee;
+}

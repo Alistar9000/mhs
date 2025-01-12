@@ -1,0 +1,6 @@
+.rotate{
+    animation: user-anim .3s linear forwards;
+}
+@keyframes user-anim {
+    to{transform: rotatex('-90deg');}
+}

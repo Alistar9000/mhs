@@ -1,0 +1,8 @@
+.card{
+    animation: card-anim .4s linear forwards;
+}
+@keyframes card-anim {
+    from{opacity: 0;}
+    to{opacity: 1;}
+    
+}

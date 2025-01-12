@@ -1,0 +1,13 @@
+.symbol-toolbar::-webkit-scrollbar{
+    
+    height: 0px;
+    display: none;
+}
+.symbol-toolbar::-webkit-scrollbar-thumb{
+    background-color: rgb(234, 192, 234);
+    border-radius: 6px;
+}
+.symbol-toolbar{
+    scrollbar-width: none;
+    
+}

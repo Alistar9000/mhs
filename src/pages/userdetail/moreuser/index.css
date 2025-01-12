@@ -1,0 +1,11 @@
+.more-user-userdetail::-webkit-scrollbar,.portfo::-webkit-scrollbar{
+    width: 4px;
+}
+.more-user-userdetail::-webkit-scrollbar-thumb,.portfo::-webkit-scrollbar-thumb{
+    background-color: rgb(189, 214, 219);
+    border-radius: 6px;
+}
+.user-header::-webkit-scrollbar{
+    height: 4px;
+    /* display: none; */
+}

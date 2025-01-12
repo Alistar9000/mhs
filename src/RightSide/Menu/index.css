@@ -1,0 +1,7 @@
+.menu-home:hover{
+    color: aqua;
+
+}
+.menu-scroll::-webkit-scrollbar{
+    height: 0;    
+}

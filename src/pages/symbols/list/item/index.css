@@ -1,0 +1,7 @@
+.symbol-list-percent{
+    animation: symbol-list-percent-anim .5s linear forwards;
+}
+@keyframes symbol-list-percent-anim{
+    form{width: 0;}
+    to{width: 100%;}
+}

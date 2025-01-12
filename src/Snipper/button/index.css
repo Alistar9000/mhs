@@ -1,0 +1,7 @@
+.button-snipper{
+    animation: button-snipper-anim .8s linear infinite;
+}
+@keyframes button-snipper-anim{
+    from{rotate: 0;}
+    to{rotate: 360deg;}
+}

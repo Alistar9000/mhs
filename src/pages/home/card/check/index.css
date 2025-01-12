@@ -1,0 +1,11 @@
+.card-checkbox{
+    height: 9px;
+    width: 9px;
+    top:14%;
+    right: 8%;
+    transition: all .2s;
+}
+
+.card-checkbox-left{
+ right: 65%;
+}

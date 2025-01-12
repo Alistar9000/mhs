@@ -1,0 +1,8 @@
+.portfo::-webkit-scrollbar{
+    width: 4px;
+    
+}
+.portfo::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background-color: rgb(219, 219, 219);
+}

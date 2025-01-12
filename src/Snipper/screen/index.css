@@ -1,0 +1,82 @@
+.screen-snipper{
+    animation: rotate-snipper 1s linear infinite;
+}
+@keyframes rotate-snipper-1 {
+    0%{top: 0;left: 30%;}
+    50%{top:20%;left: 30%;}
+    70%{top:20%;left: 30%;}
+    100%{ top: 0;left: 30%;}
+    
+}
+@keyframes rotate-snipper-2 {
+    0%{right: 0;top: 60%;}
+    50%{right:20%;top: 50%;}
+    70%{right:20%;top: 50%;}
+    100%{ right: 0;top: 60%;}
+    
+}
+@keyframes rotate-snipper-3 {
+    0%{left: 0;top: 60%;}
+    50%{left:20%;top: 50%;}
+    70%{left:20%;top: 50%;}
+    100%{ left: 0;top: 60%;}
+    
+}
+@keyframes rotate {
+    0%{ transform: rotate(0deg)  }
+   
+    100%{ transform: rotate(360deg) }
+    
+}
+.rotate div:nth-child(1){
+    /* animation: rotate-snipper-1 1.5s ease-in-out infinite; */
+    /* top: 0;left: 31%; */
+    top: 20%;left: 50%;
+}
+.rotate div:nth-child(2){
+    /* animation: rotate-snipper-2 1.5s ease-in-out infinite; */
+    /* right: 5%;top: 60%; */
+    right: 25%;top: 50%;
+}
+.rotate div:nth-child(3){
+    /* animation: rotate-snipper-3 1.5s ease-in-out infinite; */
+    /* left: 5%;top: 60%; */
+    left: 20%;top: 50%;
+}
+.rotate{
+    /* animation: rotate 2s linear infinite; */
+}
+.loading div:nth-child(1){
+    animation: first-loading 1s infinite;
+    
+}
+.loading div:nth-child(2){
+    animation: second-loading 1s infinite;
+
+}
+.loading div:nth-child(3){
+    animation: last-loading 1s infinite;
+
+}
+@keyframes first-loading {
+   0%{ opacity: 0;}
+   5%{ opacity: 0;}
+   /* 70%{opacity: 100;} */
+   100%{ opacity: 100;}
+
+    
+}
+@keyframes second-loading {
+    0%{ opacity: 0;}
+    20%{ opacity: 0;}
+   /* 80%{opacity: 100;} */
+   100%{ opacity: 100;}
+    
+}
+@keyframes last-loading {
+    0%{ opacity: 0;}
+    30%{ opacity:0;}
+    /* 90%{opacity: 100;} */
+    100%{ opacity: 100;}
+    /* 0%{ opacity: 0;} */
+}

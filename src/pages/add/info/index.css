@@ -1,0 +1,16 @@
+.add-info{
+    animation: add-info-anim .3s linear forwards;
+    animation-delay: .3s;
+}
+@keyframes add-info-anim{
+    from{opacity: 0;transform: translateX(10px);}
+    to{opacity: 1;transform: translateX(0);}
+}
+@keyframes add-portfo-anim{
+    from{opacity: 0;transform: translateX(-10px);}
+    to{opacity: 1;transform: translateX(0);}
+}
+@keyframes add-btn-anim{
+    from{opacity: 0;transform: translateY(20px);}
+    to{opacity: 1;transform: translateX(0);}
+}

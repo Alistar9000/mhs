@@ -1,0 +1,7 @@
+.floating-search::-webkit-scrollbar{
+    width: 4px;
+}
+.floating-search::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background-color: rgb(254, 211, 147);
+}

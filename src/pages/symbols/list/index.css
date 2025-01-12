@@ -1,0 +1,6 @@
+.symbol-list::-webkit-scrollbar{
+    width: 4px;
+}
+.symbol-list::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background-color: rgb(189, 214, 219);}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: IRANSansWeb;
+  src: local('IRANSansWeb'), url("./fonts/IRANSansWeb.woff2") format('truetype');
+}
+@font-face {
+  font-family: BYekan;
+  src: local('IRANSansWeb'), url("./fonts/BYekan.ttf") format('truetype');
+}
+@font-face {
+  font-family: BYekanBold;
+  src: local('IRANSansWeb'), url("./fonts/BYekanBold.ttf") format('truetype');
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,26 @@
+*{font-family:IRANSansWeb;box-sizing: border-box;}
+.project-color{
+background-color: var(--project-color);
+}
+
+:root{
+    /* --project-color:rgb(222, 175, 245); */
+    --green-color:#29c717;
+    --bg-color:#95d5ed;
+    /* --bg-color:#c4fd08; */
+
+    --bg-color-l:#88d0eb;
+    --bg-color-l2:rgba(102,255,0,.2);
+    --project-color:
+    /* rgb(223, 223, 223); */
+    /* rgb(208, 208, 208); */
+    rgb(255, 196, 140);
+    --project-border-color:rgb(249, 199, 146);
+    
+    /* rgb(223, 223, 223); */
+
+}
+.byekan{
+    font-family: byekan;
+    /* font-family: IRANSansWeb; */
+}
