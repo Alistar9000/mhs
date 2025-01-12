@@ -24,9 +24,7 @@ const PostRequest = async (data, dispatch, type, resetFormData) => {
 
     setTimeout(() => {
       dispatch(setscreenSnipper(false));
-      const URL = "/pm/add_new.php";
-      // const URL = "http://www.signal365.ir/pm/add_new.php";
-      // const URL = "http://www.mhs365.ir/pm/add_new.php";
+      const URL = "/add";
 
       fetch(URL, {
         method: "POST",
