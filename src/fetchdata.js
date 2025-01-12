@@ -13,8 +13,6 @@ import getSymbols from "./getSymbols";
 export async function FetchData(dispatch, flag, data2) {
   //  console.log('fetchData flag :',flag);
   const URL = "/pm/users.php";
-  // const URL = "http://www.mhs365.ir/pm/users.php";
-//  const URL = "http://www.signal365.ir/pm/users.php";
   let dataArray=[];
   const arr = []
   if (flag == 0) {
