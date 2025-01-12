@@ -27,8 +27,8 @@ const Userchart = ({data,name,id}) => {
      const getAllData = ()=>{
     const c2=[];
     // console.log('run getAllData');
-    const URL = `/pm/getfullchart.php?name=${name}&id=${id}`;
-    // const URL = `http://www.signal365.ir/pm/getfullchart.php?name=${name}&id=${id}`;
+    const URL = `/fullchart?name=${name}&id=${id}`;
+  
     axios.get(URL).then(response=>
     {const data = response.data.data;
     data?.map((e, i) => {
