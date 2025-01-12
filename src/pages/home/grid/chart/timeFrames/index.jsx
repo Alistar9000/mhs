@@ -35,8 +35,8 @@ const ChartTimeFrames = ({
   const getAllChart = (i, dispatch) => {
     const arr = [];
     let result = [];
-    const URL="/pm/getallchart.php";
-    // const URL = "http://www.signal365.ir/pm/getallchart.php";
+    const URL="/allchart";
+    
     fetch(URL)
       .then((e) => e.json())
       .then((e) => {
