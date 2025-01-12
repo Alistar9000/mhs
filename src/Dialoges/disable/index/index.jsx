@@ -26,9 +26,9 @@ const DisableDialoge = () => {
      
       setTimeout(async() => {
         
-        const URL = `/pm/disablesabad_new.php?id=${id}&status=${Status}`;
+        const URL = `/disable?id=${id}&status=${Status}`;
 
-      // const URL = `http://www.signal365.ir/pm/disablesabad_test.php?id=${id}&status=${Status}`;
+   
       const response = await axios.get(URL);
       const res = response.data.data;
    
