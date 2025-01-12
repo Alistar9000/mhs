@@ -17,8 +17,7 @@ const DeleteDialoge = () => {
         setTimeout(async() => {
             
        
-        const URL=`/pm/delsabad_new.php?id=${id}&name=${name}`;
-        // const URL=`http://www.signal365.ir/pm/delsabad_test.php?id=${id}`;
+        const URL=`/dell?id=${id}&name=${name}`;
        
         const response =await axios.get(URL);
         const res = response.data.data;
