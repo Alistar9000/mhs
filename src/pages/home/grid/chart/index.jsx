@@ -69,7 +69,7 @@ const DashboardChart = () => {
       <div className="flex px-4 justify-between place-items-center">
 <div className="flex gap-x-4">
 {/* <div className="font-bold text-gray-700 flex  gap-x-2 place-items-center byekan"><FiBarChart2 style={{width:'15px',height:'15px'}} />نمودار دارایی کل</div> */}
-      <a href="/pm/csv/all_sabad.csv">
+      <a href="/all.csv">
       <BiDownload className="cursor-pointer text-[1em] text-[rgba(102,176,255,1)]"/>
       </a>
 
