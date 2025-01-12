@@ -22,7 +22,7 @@ const DisableDialoge = () => {
       dispatch(setscreenSnipper(true));
       let Status
       status == 0 ? Status =1 : Status =0;
-      // const URL = `pm/disablesabad_test.php?id=${id}&status=${Status}`;
+     
      
       setTimeout(async() => {
         
