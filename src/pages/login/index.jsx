@@ -20,14 +20,7 @@ const Login = () => {
   const dispatch = useDispatch();
   
   const User = [
-    {
-    user: "ali65",
-    pass: "1365",
-  },
-  {
-    user: "mohsen59",
-    pass: "1359",
-  },
+   
   {
     user: "admin",
     pass: "admin",
