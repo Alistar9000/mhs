@@ -27,7 +27,7 @@ const UserInMoreUser = ({ index,data, parent ,showMore,setShowMore,clickMore,ful
  
   const handleCommDate = async ()=>{
    
-   const URL = `/pm/comm_date_update.php?id=${id}&date=${commision_date}`;
+   const URL = `/comm_date?id=${id}&date=${commision_date}`;
   //  const URL = `http://www.signal365.ir/pm/comm_date_update.php?id=${id}&date=${commision_date}`;
    const response =await axios.get(URL);
    const res = response.data;
