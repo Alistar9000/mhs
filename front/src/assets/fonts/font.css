@@ -1,0 +1,10 @@
+/* Regular */
+@font-face {
+  font-family: 'Shabnam';
+  src: url('./digikala.woff2') format('truetype'),
+      ;
+  font-weight: 100 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
