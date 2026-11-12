@@ -22,10 +22,10 @@ export default function LoginPage() {
       className=" h-screen bg-slate-100 flex justify-center items-center w-[100vw]"
     >
       <div className="flex flex-col gap-3 bg-white p-8 shadow-md rounded-xl min-w-80  mx-auto">
-        {/* <div className="aspect-square rounded-full ring-4 ring-blue-100 w-10 overflow-hidden">
+        <div className="aspect-square rounded-full ring-4 ring-blue-100 w-10 overflow-hidden">
 
          <img src="/mhs2.png" className="object-cover" />
-        </div> */}
+        </div>
         <h2 className="text-center mb-5 font-bold text-xl">ورود به سیستم</h2>
         <label htmlFor="" className="text-slate-400 ">
           نام کاربری
